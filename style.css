@@ -35,3 +35,43 @@ img {
   font-weight: bold;
   font-size: 1.2em;
 }
+
+.btn {
+  font-size: 1em;
+  padding: 0.5em 2em;
+  border-radius: 2em;
+  color: #D4D4D4;
+  cursor: pointer;
+  margin: 1em;
+}
+
+.option_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.option_buttons button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2795D5), to(#535DDE));
+  background-image: -o-linear-gradient(left, #2795D5 0%, #535DDE 100%);
+  background-image: linear-gradient(to right, #2795D5 0%, #535DDE 100%);
+  border: none;
+}
+
+.option_buttons button:hover {
+  border: 1px solid #D4D4D4;
+}
+
+#restartButton {
+  background-color: rgb(24, 33, 63);
+  border: 2px solid #D4D4D4;
+  display: none;
+}
+
+#restartButton:hover {
+  background: #D4D4D4;
+  color: #18213F;
+}
