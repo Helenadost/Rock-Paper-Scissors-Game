@@ -9,11 +9,6 @@ body {
   color: #D4D4D4;
 }
 
-img {
-  max-width: 200px;
-  width: 100%;
-}
-
 .rps-container {
   max-width: 620px;
   margin: 0 auto;
@@ -34,6 +29,17 @@ img {
 .count {
   font-weight: bold;
   font-size: 1.2em;
+}
+
+.imagesBox {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2em;
+}
+
+.imagesBox img {
+  width: 200px;
+  max-width: 50%;
 }
 
 .btn {
